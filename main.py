@@ -1,8 +1,9 @@
 import os
 import sqlite3 as sql
 import openai
-from gtts import gTTS
-from playsound import playsound
+
+#TTS
+import pyttsx3
 #main loop for progressive conversation
 
 def lightsoff(location):
@@ -16,13 +17,13 @@ def lightson(location):
 def main():
     with open('key.txt') as f:
         key = f.readlines()
-        print(key[0])
+        #print(key[0])
     #DONT REVEAL THIS KEY! ENCRYPT AND HIDE IT LATER
     openai.api_key = key[0]
     #DONT REVEAL THIS KEY ^^^^^^^^^^^^^^^^^^^^^^^^^^
 
     #prompt for chatgpt to follow in its responses
-    SystemPrompt = "you will SOMETIMES be provided with user responses for smart home control. when this happens please respond ONLY with a tag and its state. working examples are lightsoff(location) and lightson(location). other examples are fanoff('bathroom') or pumpon('livingroom'). get the location if the user did not provide context for one. the location should be in quotations and have no spaces. sometimes the user will not want smart home control, please consider."
+    SystemPrompt = "you will SOMETIMES be provided with user responses for smart home control. when this happens please respond ONLY with a tag and its state. working examples are SHC_lightsoff(location)$$ and SHC_lightson(location)$$. other examples are SHC_fanoff('bathroom')$$ or SHC_pumpon('livingroom')$$. get the location if the user did not provide context for one. the location should be in quotations and have no spaces. sometimes the user will not want smart home control, please consider."
     #holds line of conversation between you and chatgpt
     #short term memory
     chathistory = [{"role": "system", "content": SystemPrompt}]
@@ -41,17 +42,22 @@ def main():
         chathistory.append(curmessage)
         #query sent to openai
         chat_completion = openai.ChatCompletion.create(model="gpt-3.5-turbo", messages=chathistory)
-        resmessage = {"role": "assistant", "content": str(chat_completion.choices[0].message.content)}
+        res = chat_completion.choices[0].message.content
+        resmessage = {"role": "assistant", "content": str(res)}
         chathistory.append(resmessage)
-        print("Response: "+chat_completion.choices[0].message.content)
-
-        testspeak = gTTS(text = chat_completion.choices[0].message.content, lang = "en", slow = False)
-        testspeak.save("speech.mp3")
-
+        print("Response: "+res)
+        p = res.find("SHC_")
+        e = res.find("$$")
+        if p > -1:
+            res = res[p+4:e]
+            print("modified response: "+res)
         try:
-            exec(chat_completion.choices[0].message.content)
+            #Try function
+            exec(res)
         except:
-            print("probably not a command")
+            print("_function not found")
+            #TTS
+            pyttsx3.speak(res)
         #TODO log to db
         #TODO speech recognition to user input. speech to text for assistant response.
 
