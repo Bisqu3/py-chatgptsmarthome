@@ -30,23 +30,25 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/github_username/repo_name">
+  <a href="https://github.com/Bisqu3/chatgptcontrol">
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
-<h3 align="center">project_title</h3>
+<h3 align="center">ChatGPT Smart Home Assistant</h3>
 
   <p align="center">
-    project_description
+    Speech to text conversation with ChatGPT using OpenAIs API library.
+    Distinguishes Smart home commands from normal conversation.
+    There is no activation word, if your mic is on the assistant is listening.
     <br />
-    <a href="https://github.com/github_username/repo_name"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/Bisqu3/chatgptcontrol"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/github_username/repo_name">View Demo</a>
+    <a href="https://github.com/Bisqu3/chatgptcontrol">View Demo</a>
     ·
-    <a href="https://github.com/github_username/repo_name/issues">Report Bug</a>
+    <a href="https://github.com/Bisqu3/chatgptcontrol/issues">Report Bug</a>
     ·
-    <a href="https://github.com/github_username/repo_name/issues">Request Feature</a>
+    <a href="https://github.com/Bisqu3/chatgptcontrol/issues">Request Feature</a>
   </p>
 </div>
 
@@ -85,7 +87,7 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `github_username`, `repo_name`, `twitter_handle`, `linkedin_username`, `email_client`, `email`, `project_title`, `project_description`
+Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `Bisqu3`, `chatgptcontrol`, `twitter_handle`, `linkedin_username`, `email_client`, `nicknielsen5@gmail.com`, `project_title`, `project_description`
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -93,14 +95,11 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 
 ### Built With
 
-* [![Next][Next.js]][Next-url]
-* [![React][React.js]][React-url]
-* [![Vue][Vue.js]][Vue-url]
-* [![Angular][Angular.io]][Angular-url]
-* [![Svelte][Svelte.dev]][Svelte-url]
-* [![Laravel][Laravel.com]][Laravel-url]
-* [![Bootstrap][Bootstrap.com]][Bootstrap-url]
-* [![JQuery][JQuery.com]][JQuery-url]
+OpenAI
+Google Cloud
+PYaudio
+pyttsx3
+phue
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -109,15 +108,15 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+Requires a microphone. 
+Only works with Phillips Hue Bridge
 
 ### Prerequisites
 
 This is an example of how to list things you need to use the software and how to install them.
 * npm
   ```sh
-  npm install npm@latest -g
+  pip install pyaudio google.cloud pyttsx3 openai phue
   ```
 
 ### Installation
@@ -125,7 +124,7 @@ This is an example of how to list things you need to use the software and how to
 1. Get a free API Key at [https://example.com](https://example.com)
 2. Clone the repo
    ```sh
-   git clone https://github.com/github_username/repo_name.git
+   git clone https://github.com/Bisqu3/chatgptcontrol.git
    ```
 3. Install dependencies
    ```sh
@@ -161,7 +160,7 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 - [ ] Feature 3
     - [ ] Nested Feature
 
-See the [open issues](https://github.com/github_username/repo_name/issues) for a full list of proposed features (and known issues).
+See the [open issues](https://github.com/Bisqu3/chatgptcontrol/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -199,7 +198,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email@email_client.com
 
-Project Link: [https://github.com/github_username/repo_name](https://github.com/github_username/repo_name)
+Project Link: [https://github.com/Bisqu3/chatgptcontrol](https://github.com/Bisqu3/chatgptcontrol)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -218,16 +217,16 @@ Project Link: [https://github.com/github_username/repo_name](https://github.com/
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/github_username/repo_name.svg?style=for-the-badge
-[contributors-url]: https://github.com/github_username/repo_name/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/github_username/repo_name.svg?style=for-the-badge
-[forks-url]: https://github.com/github_username/repo_name/network/members
-[stars-shield]: https://img.shields.io/github/stars/github_username/repo_name.svg?style=for-the-badge
-[stars-url]: https://github.com/github_username/repo_name/stargazers
-[issues-shield]: https://img.shields.io/github/issues/github_username/repo_name.svg?style=for-the-badge
-[issues-url]: https://github.com/github_username/repo_name/issues
-[license-shield]: https://img.shields.io/github/license/github_username/repo_name.svg?style=for-the-badge
-[license-url]: https://github.com/github_username/repo_name/blob/master/LICENSE.txt
+[contributors-shield]: https://img.shields.io/github/contributors/Bisqu3/chatgptcontrol.svg?style=for-the-badge
+[contributors-url]: https://github.com/Bisqu3/chatgptcontrol/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/Bisqu3/chatgptcontrol.svg?style=for-the-badge
+[forks-url]: https://github.com/Bisqu3/chatgptcontrol/network/members
+[stars-shield]: https://img.shields.io/github/stars/Bisqu3/chatgptcontrol.svg?style=for-the-badge
+[stars-url]: https://github.com/Bisqu3/chatgptcontrol/stargazers
+[issues-shield]: https://img.shields.io/github/issues/Bisqu3/chatgptcontrol.svg?style=for-the-badge
+[issues-url]: https://github.com/Bisqu3/chatgptcontrol/issues
+[license-shield]: https://img.shields.io/github/license/Bisqu3/chatgptcontrol.svg?style=for-the-badge
+[license-url]: https://github.com/Bisqu3/chatgptcontrol/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/linkedin_username
 [product-screenshot]: images/screenshot.png
