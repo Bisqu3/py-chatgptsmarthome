@@ -1,5 +1,6 @@
 from phue import Bridge
 from time import sleep
+from configure.py import *
 
 
 """
@@ -20,7 +21,7 @@ def getvarname(name):
     raise Exception("no room assignment found")
 
 def lightstate(room, state):
-    b = Bridge('10.0.0.1') #REPLACE WITH YOUR BRIDGES IP
+    b = Bridge(snag(2))
     v = 255
     if state == 0:
         v = 0
