@@ -7,7 +7,7 @@ import pyaudio
 from google.cloud import speech_v1p1beta1 as speech
 #main communication between user and chatgpt
 from gpthandler import *
-from configure.py import *
+from configure import *
 #TTS dependencies
 import pyttsx3
 

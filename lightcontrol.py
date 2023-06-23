@@ -1,6 +1,6 @@
 from phue import Bridge
 from time import sleep
-from configure.py import *
+from configure import *
 
 
 """
