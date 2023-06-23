@@ -87,7 +87,7 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `Bisqu3`, `chatgptcontrol`, `twitter_handle`, `linkedin_username`, `email_client`, `nicknielsen5@gmail.com`, `project_title`, `project_description`
+Made in linux. audio tested on windows 10.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -107,8 +107,6 @@ phue
 
 <!-- GETTING STARTED -->
 ## Getting Started
-
-Requires a microphone. 
 Only works with Phillips Hue Bridge
 
 ### Prerequisites
@@ -158,10 +156,10 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 <!-- ROADMAP -->
 ## Roadmap
 
-- [ ] Feature 1
-- [ ] Feature 2
-- [ ] Feature 3
-    - [ ] Nested Feature
+- [ ] Feature
+- [ ] Feature
+- [ ] Feature
+    - [ ] Feature
 
 See the [open issues](https://github.com/Bisqu3/chatgptcontrol/issues) for a full list of proposed features (and known issues).
 
@@ -210,7 +208,7 @@ Project Link: [https://github.com/Bisqu3/chatgptcontrol](https://github.com/Bisq
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-* []()
+* [](Banquo)
 * []()
 * []()
 
