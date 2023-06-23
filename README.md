@@ -37,7 +37,7 @@
 <h3 align="center">ChatGPT Smart Home Assistant</h3>
 
   <p align="center">
-    Speech to text conversation with ChatGPT using OpenAIs API library.
+    Speech to text with Google Cloud to converse with ChatGPT using OpenAIs API library.
     Distinguishes Smart home commands from normal conversation.
     There is no activation word, if your mic is on the assistant is listening.
     <br />
