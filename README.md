@@ -119,7 +119,7 @@ This is an example of how to list things you need to use the software and how to
 
 ### Installation
 
-1. Setup your OpenAI and Google Cloud API's [https://example.com](https://openai.com/blog/openai-api) [https://example.com]([https://example.com](https://cloud.google.com/speech-to-text?utm_source=google&utm_medium=cpc&utm_campaign=na-US-all-en-dr-bkws-all-all-trial-b-dr-1605212&utm_content=text-ad-none-any-DEV_c-CRE_648329034713-ADGP_Desk%20%7C%20BKWS%20-%20BRO%20%7C%20Txt%20_%20AI%20%26%20ML%20_%20Speech-to-Text_General_Speech%20Recognition%20Google%20Cloud-KWID_43700075187123884-kwd-914125495112&utm_term=KW_google%20cloud%20speech%20recognition-ST_google%20cloud%20speech%20recognition&gclid=CjwKCAjwhdWkBhBZEiwA1ibLmLU6NZt2MqurXFKMJO0a_NkEdb_eaFLTwFadGxD3KIv3bZBpUPB77BoCBKUQAvD_BwE&gclsrc=aw.ds))
+1. Setup your OpenAI and Google Cloud API's [OPENAI](https://openai.com/blog/openai-api) [GOOGLE CLOUD]([https://example.com](https://cloud.google.com/speech-to-text?utm_source=google&utm_medium=cpc&utm_campaign=na-US-all-en-dr-bkws-all-all-trial-b-dr-1605212&utm_content=text-ad-none-any-DEV_c-CRE_648329034713-ADGP_Desk%20%7C%20BKWS%20-%20BRO%20%7C%20Txt%20_%20AI%20%26%20ML%20_%20Speech-to-Text_General_Speech%20Recognition%20Google%20Cloud-KWID_43700075187123884-kwd-914125495112&utm_term=KW_google%20cloud%20speech%20recognition-ST_google%20cloud%20speech%20recognition&gclid=CjwKCAjwhdWkBhBZEiwA1ibLmLU6NZt2MqurXFKMJO0a_NkEdb_eaFLTwFadGxD3KIv3bZBpUPB77BoCBKUQAvD_BwE&gclsrc=aw.ds))
 2. Clone the repo
    ```sh
    git clone https://github.com/Bisqu3/chatgptcontrol.git
@@ -209,7 +209,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email@email_client.com
+Nicholas Nielsen - [@twitter_handle](https://twitter.com/twitter_handle) - nicknielsen5@gmail.com
 
 Project Link: [https://github.com/Bisqu3/chatgptcontrol](https://github.com/Bisqu3/chatgptcontrol)
 
@@ -220,7 +220,7 @@ Project Link: [https://github.com/Bisqu3/chatgptcontrol](https://github.com/Bisq
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-* [](Banquo)
+* [Nicholas Nielsen for V1 work](https://github.com/Bisqu3)
 * []()
 * []()
 
