@@ -168,10 +168,11 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 <!-- ROADMAP -->
 ## Roadmap
 
-- [ ] Google Cloud TSS (to replace pyttsx3)
+- [ ] Google Cloud TTS (to replace pyttsx3)
 - [ ] More smart home functionality
-- [ ] Long term memory / optional activation word.
-    - [ ] Flask Web App for ease of use
+- [ ] Long term memory through local database.
+    - [ ] Flask Web App
+    - [ ] optional activation word
 
 See the [open issues](https://github.com/Bisqu3/chatgptcontrol/issues) for a full list of proposed features (and known issues).
 
