@@ -107,12 +107,12 @@ phue
 
 <!-- GETTING STARTED -->
 ## Getting Started
-Only works with Phillips Hue Bridge
+Only works with Phillips Hue Bridge.
+Must provide your own keys for the OpenAI and Google Cloud APIs
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
+* download python libraries
   ```sh
   pip install pyaudio google.cloud pyttsx3 openai phue
   ```
@@ -168,10 +168,10 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 <!-- ROADMAP -->
 ## Roadmap
 
-- [ ] Feature
-- [ ] Feature
-- [ ] Feature
-    - [ ] Feature
+- [ ] Google Cloud TSS (to replace pyttsx3)
+- [ ] More smart home functionality
+- [ ] Long term memory / optional activation word.
+    - [ ] Flask Web App for ease of use
 
 See the [open issues](https://github.com/Bisqu3/chatgptcontrol/issues) for a full list of proposed features (and known issues).
 
