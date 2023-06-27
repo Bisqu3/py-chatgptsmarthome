@@ -22,11 +22,7 @@ def getvarname(name):
 
 def lightstate(room, state):
     b = Bridge(snag(2))
-    v = 255
-    if state == 0:
-        v = 0
-    print(v)
     r = getvarname(room)
     b.connect()
     sleep(0.5)
-    b.set_light(r, 'bri', v)
+    b.set_light(r, 'bri', state)

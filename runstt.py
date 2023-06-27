@@ -8,8 +8,9 @@ from google.cloud import speech_v1p1beta1 as speech
 #main communication between user and chatgpt
 from gpthandler import *
 from configure import *
-#TTS dependencies
+#from tts import *
 import pyttsx3
+#TTS dependencies
 
 
 """
@@ -104,7 +105,11 @@ def listenloop(responses):
         if result.is_final:
             print(f"Transcript: {transcript}\n")
             response = speechreceived(transcript)
-            pyttsx3.speak(response)
+            #get_tts(response)
+            voice = pyttsx3.init()
+            voice.say(response)
+            voice.runandWait()
+
             
                 
 

@@ -31,7 +31,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/Bisqu3/chatgptcontrol">
-    <img src="logo.png" alt="Logo" width="80" height="80">
+    <img src="images\logo.png" alt="Logo" width="80" height="80">
   </a>
 
 <h3 align="center">ChatGPT Smart Home Assistant</h3>
