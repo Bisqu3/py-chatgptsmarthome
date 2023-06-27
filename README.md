@@ -168,8 +168,8 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 <!-- ROADMAP -->
 ## Roadmap
 
-- [ ] Google Cloud TTS (to replace pyttsx3)
-- [ ] More smart home functionality
+- [In Progress] Google Cloud TTS (to replace pyttsx3)
+- [WIP] More smart home functionality
 - [ ] Long term memory through local database.
     - [ ] Flask Web App
     - [ ] optional activation word
